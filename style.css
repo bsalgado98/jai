@@ -1,0 +1,105 @@
+body {
+  background: transparent linear-gradient(134deg, #3B3B53 0%, #0C0C11 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: black;
+  font-family: Arial;
+}
+aside {
+  position: fixed;
+  display: flex;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  bottom: -30%;
+  transition: 0.5s;
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid black;
+  padding: 10px;
+}
+#color-toggle {
+  display: block;
+}
+#color-size-sync-container {
+  display: block;
+}
+#group-spin-container {
+  display: block;
+}
+canvas {
+  border-radius: 50%;
+  position: inherit;
+}
+#jai {
+  background-color: #3B3B53;
+  /* background-color: rgba(0, 0, 0, 0.0); */
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin-top: 50%;
+  margin-left: 15%;
+}
+#container {
+  display: flex;
+}
+#jai-container {
+  /* float: left;
+  width: 33%; */
+  margin-left: 30%;
+}
+#jai-interface {
+  color: white;
+  float: right;
+  width: 66%;
+  margin-top: 12%;
+}
+#jai-interface h1 {
+  font: Bold 700% Arial;
+}
+#jai-interface h4 {
+  font: 200% Arial;
+}
+#jai-input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  width: 70%;
+  font-size: 20px;
+  color: white;
+}
+#control-menu-opener {
+  position: absolute;
+  bottom: 0;
+  left: 20;
+  color: white;
+  font-size: 40px;
+  background-color: black;
+}
+
+/* .response {
+  opacity: 1;
+  transition: 0.5s;
+} */
+
+/***********************************/
+
+/* @media only screen and (max-width: 1200px) {
+  #container {
+    flex-direction: column;
+  }
+  #jai {
+    margin: 0;
+    margin-left: 30%;
+  }
+  #jai-container {
+    clear: both;
+    width: 100%;
+  }
+  #jai-interface {
+    clear: both;
+    width: 100%;
+    margin: 0;
+  }
+} */

@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <script src="./three.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.js"></script>
+        <link href="./style.css" rel="stylesheet">
+        <!-- <script type="module" src="node_modules/three/examples/jsm/shaders/FresnelShader.js"></script> -->
+    </head>
+    <body>
+      <div id="container">
+        <div id="jai-container">
+          <div id="jai"></div>
+        </div>
+        <!-- <div id="jai-interface">
+          <h1>Hi, I am JAI</h1>
+          <h4>What can I help you with?</h4>
+          <input placeholder="Start typing" id="jai-input">
+          <div id="responses-container"></div>
+        </div> -->
+      </div>
+      <aside id="control-menu">
+          <div class="controls">
+            <p>Confidence:</p>
+            <input type="range" min="5" max="20" class="slider" id="confidence" value="5">
+            <p id="confidence-indicator">5</p>
+          </div>
+          <div class="controls" id="color-toggle">
+            <input id="color0-iso" type="checkbox" checked>Yellow Only<br>
+            <input id="color1-iso" type="checkbox" checked>Blue Only<br>
+            <input id="color2-iso" type="checkbox" checked>Pink Only<br>
+          </div>
+          <div class="controls">
+            <p>Orbit speed:</p>
+            <input type="range" min="500" max="30000" class="slider" id="orbit-speed" value="30000">
+            <p id="orbit-speed-indicator">30000</p>
+            <div id="group-spin-container">
+              <input id="group-spin" type="checkbox" checked>Toggle group spin
+            </div>
+          </div>
+          <div class="controls">
+            <p>Yellow blob size:</p>
+            <input type="range" min="0.05" max="1" class="slider" id="color0-size" value = "1" step="0.01">
+            <p>Blue blob size:</p>
+            <input type="range" min="0.05" max="1" class="slider" id="color1-size" value = "1" step="0.01">
+            <p>Pink blob size:</p>
+            <input type="range" min="0.05" max="1" class="slider" id="color2-size" value = "1" step="0.01">
+            <div id="color-size-sync-container">
+              <input id="color-size-sync" type="checkbox">Syncronize
+            </div>
+          </div>
+          <!-- <div class="controls">
+            <p>Glowness:</p>
+            <input type="range" min="0.0" max="2.0" class="slider" id="glow-amount" value="0.9" step="0.1">
+            <p id="glow-amount-indicator">1.0</p>
+          </div> -->
+        </aside>
+        <span id="control-menu-opener">^</span>
+      <script src="./index.js" id="three" type="module"></script>
+    </body>
+</html>
