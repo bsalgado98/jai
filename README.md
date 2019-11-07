@@ -17,7 +17,7 @@ Before attempting to install this project on your machine, ensure you have the f
 ## Cool stuff thats in this project
 Being that this was the only concrete requirement for the project:
 
-![Reference picture given to me by J&amp;J designer](./JAI.ai "Reference picture given to me by J&amp;J designer")
+![Reference picture given to me by J&amp;J designer](./JAI-req.png "Reference picture given to me by J&amp;J designer")
 *Reference picture given to me by J&amp;J designer*
 
 I took some liberties both technically and creatively.
