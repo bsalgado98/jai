@@ -26,6 +26,7 @@ I took some liberties both technically and creatively.
 This app is primarily built with [Three.js](https://threejs.org/) as the means to do 3D animation.
 The blobs you see in the animation are actually being rendered in real time using OpenGL (GLSL).
 The animations are so smooth thanks in part to the fact that Three.js relies on the GPU to perform the visual-heavy rendering.
+![jai with its controls](./jai-demo.gif "jai-controls")
 
 ## Final notes
 This stretch assignment was a TON of fun to make and really helped bring a lot of visibility to my work within, not just my team,
