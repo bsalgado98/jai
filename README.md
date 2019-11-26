@@ -1,5 +1,6 @@
 # jai
 A siri-like virtual assistant animation I created for the Janssen Data Science team at Johnson &amp; Johnson
+![jai](./jai.gif "jai")
 
 ## Technical prerequisites
 Before attempting to install this project on your machine, ensure you have the following things installed first

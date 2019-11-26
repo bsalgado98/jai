@@ -44,9 +44,9 @@ canvas {
   display: flex;
 }
 #jai-container {
-  /* float: left;
-  width: 33%; */
-  margin-left: 30%;
+  float: left;
+  width: 33%;
+  /* margin-left: 30%; */
 }
 #jai-interface {
   color: white;
@@ -85,7 +85,7 @@ canvas {
 
 /***********************************/
 
-/* @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   #container {
     flex-direction: column;
   }
@@ -100,6 +100,8 @@ canvas {
   #jai-interface {
     clear: both;
     width: 100%;
-    margin: 0;
+    margin-left: 12%;
+    margin-bottom: 50%;
+    margin-top: 0;
   }
-} */
+}
